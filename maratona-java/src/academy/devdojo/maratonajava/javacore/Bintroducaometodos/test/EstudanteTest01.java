@@ -12,12 +12,19 @@ public class EstudanteTest01 {
         estudante01.nome = "Neymar";
         estudante01.idade = 15;
         estudante01.sexo = 'M';
-
+ 
         estudante02.nome = "Messi";
         estudante02.idade = 19;
         estudante02.sexo = 'F';
 
         impressora.imprime(estudante01);
+
+        impressora.imprime(estudante02);
+
+        System.out.println("######################");
+
+        impressora.imprime(estudante01);
+        
         impressora.imprime(estudante02);
 
     }
