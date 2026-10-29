@@ -5,10 +5,12 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Funciona
 public class FuncionarioTest01 {
     public static void main(String[] args) {
         Funcionario funcionario = new  Funcionario();
-        funcionario.nome = "Neymar";
-        funcionario.idade = 31;
-        funcionario.salarios = new double[]{1500, 1500, 1500};
+        funcionario.setNome("Neymar");
+        funcionario.setIdade(31);;
+        funcionario.setSalarios(new double[]{1500, 1500, 1500});
 
         funcionario.imprime();
+
+        System.out.println(funcionario.getMedia());
     }
 }
